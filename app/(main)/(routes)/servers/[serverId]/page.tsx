@@ -1,6 +1,6 @@
-const ServerPage = () => {
+const ServerPage = ({params} : {params: {serverId : string}}) => {
     return (
-        <div>SERVER PAGE</div>
+        <div>{params.serverId}</div>
     );
 }
  
